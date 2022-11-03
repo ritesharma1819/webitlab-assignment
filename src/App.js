@@ -1,9 +1,13 @@
-
+import IntroPage from "./pages/IntroPage";
+import MeasurmentPage from "./pages/MeasurmentPage";
+import IndustriesPage from "./pages/IndustriesPage";
 
 function App() {
   return (
     <div>
-      <h1>React App</h1>
+      <IntroPage />
+      <MeasurmentPage />
+      <IndustriesPage />
     </div>
   );
 }

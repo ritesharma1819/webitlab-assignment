@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__leftHeader {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header__leftHeader-title {
+  display: flex;
+  flex-direction: column;
+}
+.header__leftHeader-title_agency {
+  margin-top: -25px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.header__leftHeader p {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header__rightHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header__rightHeader_schedule_button {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 25px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header__rightHeader_hiring_button {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 25px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 550;
+  cursor: pointer;
+  border: none;
+}
