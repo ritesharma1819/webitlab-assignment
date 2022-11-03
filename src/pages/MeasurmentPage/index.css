@@ -1,0 +1,51 @@
+.measurment {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5rem 10rem;
+}
+.measurment__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.measurment__title h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #00ff00;
+}
+
+.measurment__title-success {
+  margin-top: -25px;
+}
+
+.measurment__title p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: -10px;
+}
+
+.measurment__content {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.measurment__content-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.measurment__content-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.measurment__content-item h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
