@@ -54,9 +54,13 @@
   .intro {
     padding: 15px;
   }
+  .intro__feed {
+    margin-top: 10px;
+    position: relative;
+  }
   .intro__feed-title {
     position: absolute;
-    top: 10%;
+    top: 25%;
     left: 10%;
   }
   .intro__feed-title h1 {
