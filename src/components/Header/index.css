@@ -3,6 +3,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.menu__icon {
+  display: none;
+}
 .header__leftHeader {
   display: flex;
   align-items: center;
@@ -49,4 +52,74 @@
   font-weight: 550;
   cursor: pointer;
   border: none;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .menu__icon {
+    display: block;
+  }
+  .menu__icon-active {
+    display: none;
+  }
+
+  .header__leftHeader {
+    display: none;
+  }
+
+  .header__leftHeader-active {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .menu__icon {
+    display: block;
+  }
+  .menu__icon-active {
+    display: none;
+  }
+
+  .header__leftHeader {
+    display: none;
+  }
+
+  .header__leftHeader-active {
+    display: block;
+  }
+
+  .header__rightHeader {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .header__rightHeader_schedule_button {
+    background-color: #000;
+    color: #fff;
+    padding: 2px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .header__rightHeader_hiring_button {
+    background-color: #fff;
+    color: #000;
+    padding: 2px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 550;
+    cursor: pointer;
+    border: none;
+  }
 }

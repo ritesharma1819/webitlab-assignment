@@ -4,7 +4,7 @@ import IndustriesPage from "./pages/IndustriesPage";
 
 function App() {
   return (
-    <div>
+    <div style={{ overflow: "hidden" }}>
       <IntroPage />
       <MeasurmentPage />
       <IndustriesPage />

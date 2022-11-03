@@ -48,3 +48,27 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+@media (max-width: 1000px) {
+  .industries {
+    padding: 5rem 5rem;
+  }
+  .industries__content {
+    grid-template-columns: 1fr 1fr;
+  }
+  .industries__title h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .industries {
+    padding: 5rem 2rem;
+  }
+  .industries__content {
+    grid-template-columns: 1fr;
+  }
+  .industries__title h1 {
+    font-size: 30px;
+  }
+}

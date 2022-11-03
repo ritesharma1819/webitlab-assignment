@@ -1,12 +1,12 @@
 .intro {
   background-color: #00ff00;
   padding: 1rem 3rem;
+  overflow: hidden;
 }
 
 .intro__feed {
   margin-top: 100px;
   position: relative;
-  overflow: hidden;
 }
 .intro__feed img {
   width: 100%;
@@ -27,4 +27,47 @@
 }
 .intro__feed-title h2 {
   margin-top: -30px;
+}
+
+@media (max-width: 1000px) {
+  .intro {
+    background-color: #00ff00;
+    overflow: hidden;
+  }
+  .intro__feed-title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .intro__feed-title h1 {
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .intro__feed-title h2 {
+    margin-top: -30px;
+  }
+}
+@media (max-width: 500px) {
+  .intro {
+    padding: 15px;
+  }
+  .intro__feed-title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .intro__feed-title h1 {
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .intro__feed-title h2 {
+    margin-top: -20px;
+    font-size: 15px;
+  }
 }
